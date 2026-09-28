@@ -1,0 +1,80 @@
+/* CSS Reset */
+
+:root {
+  --navy-dark: #061B2E;
+  --navy: #073965;
+  --blue: #0B5FA5;
+  --blue-bright: #1689D8;
+
+  --blue-light: #EAF5FC;
+
+  --white: #FFFFFF;
+  --off-white: #F7F9FC;
+  --gray-light: #E5EAF0;
+  --gray: #6c7178;
+
+  --text-dark: #172033;
+
+  --primary-font: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  color: white;
+  font-family: var(--primary-font);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

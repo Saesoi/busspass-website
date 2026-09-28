@@ -1,0 +1,119 @@
+main{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../assets/buss-bg.png');
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.hero-section-props .hero-eyebrow,
+.hero-section-props .hero-title,
+.hero-section-props .hero-intro{
+    margin-bottom: 16px;
+}
+
+.hero-section-props .hero-intro{
+    font-size: 1.1em;
+    margin-top: 16px;
+    color: var(--gray);
+}
+
+.hero-section{
+    background-color: rgba(3, 22, 47, 0.99);
+    padding: 250px 110px 50px;    
+    border-top-right-radius: 280px;
+    border-bottom-right-radius: 480px;
+}
+
+/*Home Grid Layout*/
+.home-grid {
+    height: 70vh;
+    width: 100%;
+    padding: 30px 110px;
+    display: grid;
+    grid-template-columns: 55vw 1fr;
+    grid-template-rows: 60% 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+/*latest announcements section*/    
+.home-grid-item{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 10% 1fr; 
+    gap: 20px 30px; 
+    grid-template-areas: 
+    "item1 item1"
+    "item2 item3"; 
+}
+
+.item1 {
+    grid-area: item1; 
+    color: var(--navy);
+}
+
+.item2 { 
+    grid-area: item2; 
+    color: var(--gray);
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    display: grid; 
+    grid-template-columns: 20% 1fr; 
+    grid-template-rows: 65% 1fr; 
+    gap: 15px 0px; 
+    padding: 20px;
+    grid-template-areas: 
+    "area1 area2"
+    "area1 area3"; 
+}
+
+.item3 { 
+    grid-area: item3; 
+    color: var(--gray);
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    display: grid; 
+    grid-template-columns: 20% 1fr; 
+    grid-template-rows: 65% 1fr; 
+    gap: 15px 0px; 
+    padding: 20px;
+    grid-template-areas: 
+    "area1 area2"
+    "area1 area3"; 
+}
+
+.area1{
+    grid-area: area1;
+}
+
+.area2{
+    grid-area: area2;
+}
+
+.area3{
+    grid-area: area3;
+}
+
+.area3 a{
+    color: var(--blue-bright);
+    font-family: var(--primary-font);
+}
+
+.area1 img{
+    height: 50px;
+}
+
+.area2 h2{
+    color: var(--navy);
+}
+
+.area2 p{
+    color: var(--gray);
+    margin-bottom: 25px;
+}
+
+
+
